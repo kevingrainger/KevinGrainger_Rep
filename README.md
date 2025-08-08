@@ -20,7 +20,7 @@ A sample of some previous work (HMM-GARCH Volatility Modelling,  Markov Coral Bl
         <img src="Hidden Markov Model Oil Volatility Measure.png" alt="Hidden Markov Model Oil Volatility Measure" width="350" style="margin: 10px;">
       </td>
       <td align="center">
-        <img src="PDE Plotting.png" alt="PDE Plotting" width="350" style="margin: 10px;">
+        <img src="PDE 3D Plots.png" alt="PDE Plotting" width="350" style="margin: 10px;">
       </td>
     </tr>
   </table>
