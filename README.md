@@ -5,8 +5,7 @@
 Sample of coding projects I have undertaken through college or in my own time.
 Most of which are physical simulations in Python and some numerical simulations in C++, but I am hoping to complete some more personal projects shortly :)
 
-During my theoretical physics course, the coding projects were mainly focused on numerical solutions to various physics-related systems, quantum wells, etc.
-
+The projects are mainly focused on numerical solutions to various physics-related systems, quantum wells, etc.
 Going forward, I am more interested in pursuing applied mathematics more generally, especially mathematical ecology and complex systems.
 
 I have started this journey from a very physics point of view, currently working through (very slowly) the books: 
@@ -14,9 +13,6 @@ I have started this journey from a very physics point of view, currently working
 - **"Critical Transitions in Nature and Society"** by Martin Scheffer
 
 </div>
-
-## Highlighted Projects
-
 <div align="center">
   <table>
     <tr>
