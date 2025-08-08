@@ -34,7 +34,6 @@ I have started this journey from a very physics point of view, currently working
   </table>
 </div>
 
-## Further Details
 
 <div style="background-color: #161b22; padding: 20px; border-radius: 8px; border: 1px solid #21262d;">
 
@@ -43,37 +42,29 @@ I have started this journey from a very physics point of view, currently working
     <td style="width: 50%; padding: 10px; vertical-align: top;">
       <details style="background-color: #0d1117; border: 1px solid #21262d; border-radius: 8px; padding: 15px; margin: 5px 0;">
         <summary style="color: #58a6ff; font-weight: bold; cursor: pointer; font-size: 16px;">
-          🔋 Energy Portfolio Optimizations
+          Energy Portfolio Optimizations
         </summary>
         <div style="margin-top: 15px; color: #c9d1d9;">
           <img src="Energy Portfolio Optimisations.png" alt="Energy Portfolio Optimisations" style="width: 100%; border-radius: 6px; margin-bottom: 10px;">
-          <p><strong>Technologies:</strong> Python, NumPy, Matplotlib, Optimization Algorithms</p>
-          <p><strong>Description:</strong> Risk-based portfolio optimization for energy investments using modern portfolio theory and Monte Carlo simulations. Implemented efficient frontier calculations and risk-return analysis for renewable energy assets.</p>
-          <p><strong>Key Features:</strong></p>
-          <ul style="color: #8b949e;">
-            <li>Monte Carlo risk simulation</li>
-            <li>Efficient frontier optimization</li>
-            <li>Multi-asset correlation analysis</li>
-            <li>Dynamic rebalancing strategies</li>
-          </ul>
+          <p><strong>Description:</strong> Risk-based portfolio optimization for energy investments using modern portfolio theory, GARCH-HMM volitility measure, and Monte Carlo simulations. Managed fictitious 10,000 euro energy portfolio of renewbale and fossil fuel assets.</p>
+          <p> Top two graphs show the volitilty of the Oil and renewable energy markets respectively. The final grpahing showing the current portfolio allocations</p>
         </div>
       </details>
     </td>
     <td style="width: 50%; padding: 10px; vertical-align: top;">
       <details style="background-color: #0d1117; border: 1px solid #21262d; border-radius: 8px; padding: 15px; margin: 5px 0;">
         <summary style="color: #58a6ff; font-weight: bold; cursor: pointer; font-size: 16px;">
-          Coral Bleaching Simulation
+          Coral Bleaching Event - Potts Model Simulation
         </summary>
         <div style="margin-top: 15px; color: #c9d1d9;">
           <img src="Coral Bleahcing Sim - Potts model.png" alt="Coral Bleaching Simulation" style="width: 100%; border-radius: 6px; margin-bottom: 10px;">
-          <p><strong>Technologies:</strong> Python, SciPy, Potts Model, Statistical Mechanics</p>
           <p><strong>Description:</strong> Markov chain-based coral bleaching simulation using the Potts model to study temperature-induced coral reef degradation and recovery patterns.</p>
-          <p><strong>Key Features:</strong></p>
+          <p>Used Sci-kit learn to train parameters to match the observed bleaching data from Scott's Reef Western Australia March 2010 bleaching event.</p>
           <ul style="color: #8b949e;">
             <li>Potts model implementation</li>
             <li>Temperature threshold analysis</li>
             <li>Spatial correlation modeling</li>
-            <li>Phase transition visualization</li>
+            <li>Phase transition visualization using Seaborn</li>
           </ul>
         </div>
       </details>
@@ -87,15 +78,8 @@ I have started this journey from a very physics point of view, currently working
         </summary>
         <div style="margin-top: 15px; color: #c9d1d9;">
           <img src="Hidden Markov Model Oil Volatility Measure.png" alt="HMM Volatility Analysis" style="width: 100%; border-radius: 6px; margin-bottom: 10px;">
-          <p><strong>Technologies:</strong> Python, Hidden Markov Models, GARCH, Time Series Analysis</p>
-          <p><strong>Description:</strong> Advanced volatility forecasting model combining Hidden Markov Models with GARCH processes to predict oil market volatility regimes.</p>
-          <p><strong>Key Features:</strong></p>
-          <ul style="color: #8b949e;">
-            <li>Multi-regime volatility modeling</li>
-            <li>Baum-Welch algorithm implementation</li>
-            <li>GARCH parameter estimation</li>
-            <li>Regime probability forecasting</li>
-          </ul>
+          <p><strong>Applying a GARCH model in combination with a HMM for detection of volatility and phase changes in high frequency time series data. GARCH values are used as emission probabilities in the Hidden Markov Model. Random matrix theory was used for signal processing. Applied to 10 years of Oil-market data for model testing. Model can be validated by ensuring coincidence with geo-political oil-shocks. </p>
+ <p> the upper graph shows the volatility rating for each point on the time series (red, orange, green), and the lower grpah shows the probability of transition to another state.  </p>     
         </div>
       </details>
     </td>
@@ -106,15 +90,9 @@ I have started this journey from a very physics point of view, currently working
         </summary>
         <div style="margin-top: 15px; color: #c9d1d9;">
           <img src="PDE 3D Plots.png" alt="PDE 3D Plots" style="width: 100%; border-radius: 6px; margin-bottom: 10px;">
-          <p><strong>Technologies:</strong> Python, NumPy, Matplotlib, Finite Difference Methods</p>
-          <p><strong>Description:</strong> Numerical solutions to partial differential equations with 3D visualization capabilities for heat diffusion, wave propagation, and quantum mechanical systems.</p>
-          <p><strong>Key Features:</strong></p>
-          <ul style="color: #8b949e;">
-            <li>Finite difference discretization</li>
-            <li>3D surface plotting</li>
-            <li>Animation capabilities</li>
-            <li>Multiple PDE solver methods</li>
-          </ul>
+          <p> Numerical solutions to partial differential equations using Successiv[e-over-Relaxation methods, with 3D visualization for differing boundary conditions. Solution found for heat diffusion, wave propagation, quantum mechanical and Black Scholes equations.</p> 
+          <p>Further surfaces created for differing numeric configuration varibales.</p>
+          
         </div>
       </details>
     </td>
@@ -123,36 +101,24 @@ I have started this journey from a very physics point of view, currently working
     <td style="width: 50%; padding: 10px; vertical-align: top;">
       <details style="background-color: #0d1117; border: 1px solid #21262d; border-radius: 8px; padding: 15px; margin: 5px 0;">
         <summary style="color: #58a6ff; font-weight: bold; cursor: pointer; font-size: 16px;">
-          ✈️ EasyJet Flight and Compliance Analysis
+           EasyJet Flight and Compliance Analysis
         </summary>
         <div style="margin-top: 15px; color: #c9d1d9;">
-          <p><strong>Technologies:</strong> Python, Data Analysis, Compliance Frameworks</p>
-          <p><strong>Description:</strong> Comprehensive analysis of EasyJet flight operations and regulatory compliance metrics, examining operational efficiency and adherence to aviation safety standards.</p>
-          <p><strong>Key Features:</strong></p>
-          <ul style="color: #8b949e;">
-            <li>Flight delay pattern analysis</li>
-            <li>Regulatory compliance tracking</li>
-            <li>Operational efficiency metrics</li>
-            <li>Safety performance indicators</li>
-          </ul>
+          
+          <p> Large scale analysis of 1 million EasyJet flights using Pyspark. Creating 30,000 employee scedules with fatigue managment for regulatory compliance. Analyising geographic and seasonal demand. Finding operational efficiency, comparing aircraft wear with seasonal preformance. </p>
+
         </div>
       </details>
     </td>
     <td style="width: 50%; padding: 10px; vertical-align: top;">
       <details style="background-color: #0d1117; border: 1px solid #21262d; border-radius: 8px; padding: 15px; margin: 5px 0;">
         <summary style="color: #58a6ff; font-weight: bold; cursor: pointer; font-size: 16px;">
-          Potts Simulation
+          Potts & Agent Based Systems Simulation
         </summary>
         <div style="margin-top: 15px; color: #c9d1d9;">
-          <p><strong>Technologies:</strong> Python, Statistical Mechanics, Monte Carlo Methods</p>
-          <p><strong>Description:</strong> Advanced Potts model simulation for studying phase transitions and critical phenomena in statistical physics systems with multiple discrete states.</p>
-          <p><strong>Key Features:</strong></p>
-          <ul style="color: #8b949e;">
-            <li>Multi-state Potts model implementation</li>
-            <li>Critical temperature determination</li>
-            <li>Phase transition visualization</li>
-            <li>Correlation function analysis</li>
-          </ul>
+
+          <p>A Potts model simulation for studying phase transitions in statistical physics systems with states. Can be adapted to model static agent based systems.</p>
+          
         </div>
       </details>
     </td>
