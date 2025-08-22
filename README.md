@@ -96,31 +96,7 @@ I have started this journey from a very physics point of view, currently working
         </div>
       </details>
     </td>
-  </tr>
-  <tr>
-    <td style="width: 50%; padding: 10px; vertical-align: top;">
-      <details style="background-color: #0d1117; border: 1px solid #21262d; border-radius: 8px; padding: 15px; margin: 5px 0;">
-        <summary style="color: #58a6ff; font-weight: bold; cursor: pointer; font-size: 16px;">
-           EasyJet Flight and Compliance Analysis
-        </summary>
-        <div style="margin-top: 15px; color: #c9d1d9;">
-          
-          <p> Large scale analysis of 1 million EasyJet flights using Pyspark. Creating 30,000 employee scedules with fatigue managment for regulatory compliance. Analyising geographic and seasonal demand. Finding operational efficiency, comparing aircraft wear with seasonal preformance. </p>
 
-        </div>
-      </details>
-    </td>
-    <td style="width: 50%; padding: 10px; vertical-align: top;">
-      <details style="background-color: #0d1117; border: 1px solid #21262d; border-radius: 8px; padding: 15px; margin: 5px 0;">
-        <summary style="color: #58a6ff; font-weight: bold; cursor: pointer; font-size: 16px;">
-          Potts & Agent Based Systems Simulation
-        </summary>
-        <div style="margin-top: 15px; color: #c9d1d9;">
-
-          <p>A Potts model simulation for studying phase transitions in statistical physics systems with states. Can be adapted to model static agent based systems.</p>
-          
-        </div>
-      </details>
     </td>
   </tr>
 </table>
