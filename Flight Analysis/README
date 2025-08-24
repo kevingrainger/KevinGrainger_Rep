@@ -1,0 +1,6 @@
+This is a quick python Pyspark and Pandas project. It was on a flight data set of over a million easy-jet flights I had gotten as 
+part of a college workshop. 
+The dataset had some intentional erros, so some of the programs have some data cleaning. The first programs are to generate some
+artifical crew data. Then creates a fake crew assignment for a few months worth of flights. This needs to obey some fatigue 
+managment rules for the avaitaion industry. 
+The latter programs are a more general data analysis with Pytorch. To find popular routes, track airplane wear by tail number etc. 
