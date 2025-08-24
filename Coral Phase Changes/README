@@ -6,6 +6,8 @@ From here we can run the simulation very similarly to any Potts or Ising model. 
 bleaching events I used Sci-kit learn to optimise simulation parameters. These being effect and recovery from 'degree Heating days' (days spent over
 the coral health treshold temp), nearest neighbour coupling, and a few more. We very lightly incorporate the nearest neighbour effects
 from magnetic systems. 
+The basis of a Potts model is a lattice set up, where each site is initialised with a state, then depending on external facotrs and
+local factors a Monte Carlo process is run on a distribution exp(A*t), where 't' typically temperature in a physics situation. 
 The reference data Sci-kit learn attempts to mimic is from Scotts Reef in Western Australia, the qulaity of coral bleaching % data
 was very poor. I would love to continue the project with more practice in machine learning, as well as finding some more detailed
 data. 
