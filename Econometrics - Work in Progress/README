@@ -18,12 +18,11 @@ Below [2] L The porffolio allocation.
   <table>
     <tr>
       <td align="center">
-        <img src="Energy_Portfolio_Optimisations.png" 
-             alt="Energy Portfolio Optimisations" width="350" style="margin: 10px;">
-      </td>
-      <td align="center">
-        <img src="Hidden_Markov_Model_Oil_Volatility_Measure.png" 
-             alt="Hidden Markov Model Oil Volatility Measure" width="350" style="margin: 10px;">
+       <img src="../Energy_Portfolio_Optimisations.png" 
+     alt="Energy Portfolio Optimisations" width="350" style="margin: 10px;">
+
+<img src="../Hidden_Markov_Model_Oil_Volatility_Measure.png" 
+     alt="Hidden Markov Model Oil Volatility Measure" width="350" style="margin: 10px;">
       </td>
     </tr>
   </table>
