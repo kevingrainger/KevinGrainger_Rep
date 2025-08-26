@@ -4,5 +4,5 @@ We applied them to some commonly encountered PDE systems; Heat dissapation, Schr
 The 3D graphing and parameter relation graphs are a bit unneeded but look really nice. 
 <p align="center">
   <img src="PDE 3D Plots.png" alt="PDE 3D Plots" width="550" style="margin: 10px;">
-  <img src="PDE_parameters" width="550" style="margin: 10px;">
+  <img src="PDE_parameters.png" width="550" style="margin: 10px;">
 </p>
