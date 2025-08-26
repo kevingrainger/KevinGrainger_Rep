@@ -16,8 +16,8 @@ Below [2] : The porffolio allocation.
 
 <p align="center">
   <img src="Energy Portfolio Optimisations.png" 
-       alt="Energy Portfolio Optimisations" width="350" style="margin: 10px;">
+       alt="Energy Portfolio Optimisations" width="950" style="margin: 10px;">
   <img src="Hidden Markov Model Oil Volatility Measure.png" 
-       alt="Hidden Markov Model Oil Volatility Measure" width="350" style="margin: 10px;">
+       alt="Hidden Markov Model Oil Volatility Measure" width="950" style="margin: 10px;">
 </p>
 
