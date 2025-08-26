@@ -12,3 +12,12 @@ The second program uses this same HMM-GARCH volitility program as a measure for 
 It uses modern portfolio theory to manage a 10,000 euro energy portfolio, I only gave it two asset categories to balence. 
 Below: The Volitlity measures of the energy assests. 
 Below [2] L The porffolio allocation.
+
+
+ <td align="center">
+        <img src="Energy Portfolio Optimisations.png" alt="Energy Portfolio Optimisations" width="350" style="margin: 10px;">
+      </td>
+
+<td align="center">
+        <img src="Hidden Markov Model Oil Volatility Measure.png" alt="Hidden Markov Model Oil Volatility Measure" width="350" style="margin: 10px;">
+      </td>
