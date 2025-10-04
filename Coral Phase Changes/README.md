@@ -1,23 +1,23 @@
 The aim of this project was to try and recreate the process, result and recovery of a coral bleaching event using a lattice
 based 'Potts' model. Each coral site has three possible states: healthy, bleached and dead. From here we can set the
 probabilities of state altering processes: coral recovery, death, coral spread. The probabilities of each of these is dependent
-both on the water surface temp, and the health of its' neighbours.
+both on the water surface temp, and the health of its' neighbours.<br>
 From here we can run the simulation very similarly to any Potts or Ising model. To recreate the observed phenomenon of coral 
 bleaching events I used Sci-kit learn to optimise simulation parameters. These being effect and recovery from 'degree Heating days' (days spent over
 the coral health treshold temp), nearest neighbour coupling, and a few more. We very lightly incorporate the nearest neighbour effects
-from magnetic systems. 
+from magnetic systems. <br>
 The basis of a Potts model is a lattice set up, where each site is initialised with a state, then depending on external facotrs and
 local factors a Monte Carlo process is run on a distribution exp(A*t), where 't' typically temperature in a physics situation. 
 The reference data Sci-kit learn attempts to mimic is from Scotts Reef in Western Australia, the qulaity of coral bleaching % data
 was very poor. I would love to continue the project with more practice in machine learning, as well as finding some more detailed
-data. 
+data. <br>
 The results are in the graphs below. The system seems to lag behind the training data, not wanting to bleach or recovery as readily
 maybe I over estimated the spacial component of a bleaching event. Was still an interesting exercise. Maybe one bettwe suited to vegiation
-rather than coral. 
-Left: A snapshot of our the reef grid 
-Right: Proportion of Healthy, Bleached, Dead Coral - with Surface temp as a reference
+rather than coral.<br> 
+Left: A snapshot of our the reef grid <br>
+Right: Proportion of Healthy, Bleached, Dead Coral - with Surface temp as a reference<br>
 
 <p align="center">
-  <img src="Coral_Bleaching_Sim.png" 
-       alt="Coral_Bleaching_Sim" width="950" style="margin: 10px;">
+  <img src="Coral Reef Sim Results.png" 
+       alt="Coral Reef Sim Results" width="950" style="margin: 10px;">
 </p>
