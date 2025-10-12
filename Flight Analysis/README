@@ -1,4 +1,3 @@
-# Flight Data Analysis Project
 
 This is a quick Python Dask and Pandas project. It was on a flight dataset of over a million EasyJet flights I had gotten as part of a college workshop.
 
@@ -6,10 +5,9 @@ The dataset had some intentional errors, so some of the programs have some data 
 
 The latter programs are a more general data analysis. To find popular routes, track airplane wear by tail number etc.
 
-## Visualizations
-
-### Flight Volume Over Time
-![Flight Volume](Flight_Vs_time.png)
-
-### Most Popular Routes
-![Popular Routes](Routes.png)
+<p align="center">
+  <img src="Flight_Vs_time.png" alt="Flight Volume Over Time">
+</p>
+<p align="center">
+  <img src="Routes.png" alt="Most Popular Routes">
+</p>
