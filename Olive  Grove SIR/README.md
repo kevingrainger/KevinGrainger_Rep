@@ -9,6 +9,6 @@ There is an interesting Machine leanring program that can identify affected oliv
 
 
 <p align="center">
-  <img src="Olive_grove_SIR.png" 
-       alt="Olive_grove_SIR" width="950" style="margin: 10px;">
+  <img src="Olivegrove_results.png" 
+       alt="Olivegrove_results" width="950" style="margin: 10px;">
 </p>
