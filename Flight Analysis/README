@@ -6,8 +6,11 @@ The dataset had some intentional errors, so some of the programs have some data 
 The latter programs are a more general data analysis. To find popular routes, track airplane wear by tail number etc.
 
 <p align="center">
-  <img src="Flight_Vs_time.png" alt="Flight Volume Over Time">
+  <img src="Flight_Vs_time.png" 
+       alt="Flight Volume Over Time" width="950" style="margin: 10px;">
 </p>
+
 <p align="center">
-  <img src="Routes.png" alt="Most Popular Routes">
+  <img src="Routes.png" 
+       alt="Most Popular Routes" width="950" style="margin: 10px;">
 </p>
