@@ -5,5 +5,9 @@ The dataset had some intentional errors, so some of the programs have some data 
 The latter programs are a more general data analysis. To find popular routes, track airplane wear by tail number etc.
 
 ![Flight Volume Over Time](Flights%20Vs%20time.png)
-
+![](Aircraft_wear.png)
+![](Airport_delay.png)
 ![Most Popular Routes](Routes.png)
+![](Delay_by_month.png)
+![](Delay_causes.png)
+
